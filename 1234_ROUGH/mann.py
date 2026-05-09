@@ -91,7 +91,7 @@ def calculate_risk(age, sys, dia, sugar):
             risk += " + Hypertension"
 
     return risk
-
+#yo
 def get_suggestion(risk):
     if "Diabetic" in risk:
         return "Reduce sugar, exercise, consult doctor"
