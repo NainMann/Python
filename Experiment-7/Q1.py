@@ -8,7 +8,7 @@ vowels = ('A','E','I','O','U','a','e','i','o','u')
 vowel_count = 0
 
 for name in names:
-    name = name.strip()    
+    name = name.strip ()    
     if name.startswith(vowels):
         vowel_count += 1
 
